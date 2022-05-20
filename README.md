@@ -1,5 +1,5 @@
- This repo contain source codes for a React Material Table CRUD application with RESTful API(MySQL DB).
- api-mysql-backend conatins   sources codes for Rest APIs with Express & MySQL example
+ This repo contain source codes for a React Material Table CRUD application with RESTful API(MySQL DB).</br>
+api-mysql-backend conatins  sources codes for Rest APIs with Express & MySQL example 
 
 
 ### Instructions to setup the react UI and api applications for integration .
@@ -9,6 +9,7 @@
 ###Instructions to set and run api-mysql-backend
 
 ## Project setup
+## install nodejs
 Download  api-mysql-backend
 cd api-mysql-backend
 
@@ -36,4 +37,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+Demo
+
+[Glossary App -User Guide.pdf](https://github.com/anikelakshmi/react-frontend-grid-app/files/8735270/Glossary.App.-User.Guide.pdf)
+
 
