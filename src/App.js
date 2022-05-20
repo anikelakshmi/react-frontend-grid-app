@@ -64,6 +64,12 @@ function App() {
   const [errorMessages, setErrorMessages] = useState([])
 
   useEffect(() => { 
+   getData()
+  }, [])
+
+
+
+ const  getData =() => { 
     api.get("/glossarys")
         .then(res => {      
     	
@@ -72,8 +78,8 @@ function App() {
          .catch(error=>{
              console.log("Error")
          })
-  }, [])
-
+  }
+  
   const handleRowUpdate = (newData, oldData, resolve) => {
     //validation
     let errorList = []
@@ -132,6 +138,7 @@ function App() {
         resolve()
         setErrorMessages([])
         setIserror(false)
+		getData()
       })
       .catch(error => {
         setErrorMessages(["Cannot add data. Server error!"])
