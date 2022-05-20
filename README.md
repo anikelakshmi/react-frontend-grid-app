@@ -40,6 +40,6 @@ You will also see any lint errors in the console.
 
 Demo
 
+[Glossary App -User Guide.pdf](https://github.com/anikelakshmi/react-frontend-grid-app/files/8735270/Glossary.App.-User.Guide.pdf)
 
-https://user-images.githubusercontent.com/105865743/169427622-fb736dc7-5e44-44aa-88cf-db8ebf4581d7.mp4
 
